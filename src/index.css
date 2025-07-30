@@ -2,41 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Travel website design system - Beautiful blues and turquoise theme */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 213 27% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 213 27% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 213 27% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Beautiful turquoise/teal */
+    --primary: 186 100% 48%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 186 100% 42%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Light blue */
+    --secondary: 203 89% 53%;
+    --secondary-foreground: 0 0% 100%;
 
+    /* Muted: Light grays */
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Darker blue */
+    --accent: 213 27% 12%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 186 100% 48%;
 
-    --radius: 0.5rem;
+    /* Travel-specific colors */
+    --travel-blue: 203 89% 53%;
+    --travel-teal: 186 100% 48%;
+    --travel-light-blue: 199 100% 85%;
+    --travel-gray: 215.4 16.3% 46.9%;
+    --travel-dark: 213 27% 12%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(203 89% 53%), hsl(186 100% 48%));
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(199 100% 98%));
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 

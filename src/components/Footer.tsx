@@ -70,9 +70,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-200 mt-12 pt-8 text-center">
+        <div className="border-t border-gray-200 mt-12 pt-8 text-center space-y-2">
           <p className="text-travel-gray text-sm">
-            © 2024 Tripone. All rights reserved.
+            © 2025 Tripone. All rights reserved.
+          </p>
+          <p className="text-travel-gray text-sm flex items-center justify-center gap-1">
+            Made by SaurabhRana0w0 with <span className="text-red-500">❤️</span>
           </p>
         </div>
       </div>
